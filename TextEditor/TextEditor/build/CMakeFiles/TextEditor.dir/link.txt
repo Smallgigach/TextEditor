@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic -Wl,--dependency-file=CMakeFiles/TextEditor.dir/link.d CMakeFiles/TextEditor.dir/main.cpp.o -o TextEditor
