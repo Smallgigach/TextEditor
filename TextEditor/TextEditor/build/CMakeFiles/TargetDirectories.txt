@@ -1,3 +1,0 @@
-/home/smallgigach/Projects/TextEditor/TextEditor/TextEditor/build/CMakeFiles/TextEditor.dir
-/home/smallgigach/Projects/TextEditor/TextEditor/TextEditor/build/CMakeFiles/edit_cache.dir
-/home/smallgigach/Projects/TextEditor/TextEditor/TextEditor/build/CMakeFiles/rebuild_cache.dir
