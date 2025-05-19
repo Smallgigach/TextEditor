@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.3)
 project(TextEditor)
-set(SOURCE_FILES main.cpp Terminal/RawMode.cpp Terminal/RawMode.h)
-
+set(CMAKE_CXX_COMPILERS 20)
+set(SOURCE_FILES main.cpp Terminal/Terminal.cpp Terminal/Terminal.h Editor/Editor.cpp Editor/Editor.h Input/PressKey.cpp Input/PressKey.h)
 add_executable(TextEditor ${SOURCE_FILES})	
+find_package(Curses REQUIRED)
+include_directories(${CURSES_INCLUDE_DIR})
+target_link_libraries(TextEditor ${CURSES_LIBRARIES})
